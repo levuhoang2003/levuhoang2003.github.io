@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - codingnepalweb.com -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- ===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <!-- sldiderr -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+
+
+
+    <style>
+        .animated-img {
+            position: relative;
+            opacity: 0;
+            animation: fadeInUp 4s linear forwards;
+        }
+
+        .animated-skills {
+            position: relative;
+            opacity: 0;
+            animation: moveleft 4s linear forwards;
+        }
+
+        .animatedcard {
+            position: relative;
+            opacity: 0;
+            animation: fadeInUp 3s linear forwards;
+        }
+
+        @keyframes moveleft {
+            0% {
+                opacity: 0;
+                transform: translateX(25px);
+            }
+
+            25% {
+                opacity: 0.5;
+                transform: translateX(50pxpx);
+            }
+
+            50% {
+                opacity: 0.5;
+                transform: translateX(75px);
+            }
+
+            75% {
+                opacity: 0.75;
+                transform: translateX(100px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateX(150px);
+            }
+
+        }
+
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(100px);
+            }
+
+            50% {
+                opacity: 0.5;
+                transform: translateY(25px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+
+    <title>Portfolio Lê Vũ Hoàng</title>
+</head>
+
+<body style="background-color: #2d2e32;">
+    <nav>
+        <div class="nav-bar">
+
+            <span class="logo navLogo">
+                <!-- <img src="https://demo.phlox.pro/freelancer/wp-content/uploads/sites/272/2021/02/logo-header.svg"> -->
+                <svg data-v-6805eed4="" version="1.0" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" width="65%" height="50%"
+                    viewBox="0 0 340.000000 250.000000" preserveAspectRatio="xMidYMid meet"
+                    color-interpolation-filters="sRGB" style="margin: auto;">
+                    
+                    <defs v-gra="od"></defs>
+                </svg>
+            </span>
+
+            <div class="menu">
+                <div class="logo-toggle">
+                    <span class="logo"><a href="#">Hamx</a></span>
+                    <i class='bx bx-x sidebarClose'></i>
+                </div>
+
+                
+            </div>
+
+            
+
+        </div>
+    </nav>
+    <!-- header start -->
+    <div class="header-section">
+        <div class="left-section">
+            <!-- <img class="animated-img"                src="https://demo.phlox.pro/freelancer/wp-content/uploads/sites/272/2021/02/hero-img.png" alt="Header Image"> -->
+            <img class="animated-img" src="ava.jpg" alt="Header Image">
+        </div>
+        <div class="right-section">
+            <div class="intro animatedcard">
+                <h2 style="color: #64f4ab;">--Introduction</h2>
+            </div>
+            <div class="main-text">
+                <h1>
+
+                    Hello,<br>
+                    I am Lê <Br>
+                    Vũ Hoàng
+                </h1>
+            </div>
+            <div class="paragraph animatedcard">
+                <p>This is my product for the exercise of creating <br>
+                    a simple HTML self-introduction page. <br>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- cards and skills -->
+    <!-- 
+	<section class="header-section1">
+        <div class="left-section1">
+            <h2>My Skills</h2>
+            <h3>Why Hire Me For the Next Project?</h3>
+            <p>The technological revolution is changing aspects of our lives, and the fabric of society itself. It's also changing the way we learn and what we learn. Factual knowledge is less prized when everything you ever need to know can be found on your phone. There's no imperative to be an expert at doing everything when you can collaborate with specialists.</p>
+            <div class="cv-button">
+                <a href="#">Download CV</a>
+            </div>
+        </div>
+        <div class="right-section1">
+            <div class="card">
+                <h3>Card 1</h3>
+                <p>Card 1 content goes here</p>
+            </div>
+            <div class="card">
+                <h3>Card 2</h3>
+                <p>Card 2 content goes here</p>
+            </div>
+            <div class="card">
+                <h3>Card 3</h3>
+                <p>Card 3 content goes here</p>
+            </div>
+            <div class="card">
+                <h3>Card 4</h3>
+                <p>Card 4 content goes here</p>
+            </div>
+        </div>
+    </section> -->
+
+
+    <section class="skills">
+        <div class="container">
+            <div style="padding: 9% 5em;" class="content-section">
+                <p style="color: #64f4ab;">--About me</p>
+                <h1 style="padding:20px 1.5em; font-size: 36px;">Here are something about me</h1>
+                <p style="padding: 25px ; font-size: larger  ;">My full name is Lê Vũ Hoàng, and I am currently
+                    in my third year of university at PTIT (Posts and Telecommunications Institute of Technology). 
+                    I am studying in class E21CQCN01-B with the student ID D21DCVT022. I'm living with my family in
+                    Cau Giay District, Hanoi. To the right is some more detailed information about me and my interests.
+                </p>
+
+
+                
+            </div>
+            <div class="cards-section">
+                <div class="card  card1 anime" style="background-color: #2d2e32; border: none;">
+                    <!-- Card 1 content goes here -->
+                    <div style="width: 300px; background-color: #25262a; padding: 20px; border-radius: 44px;">
+                        <div style="text-align: center; margin-left: 30%;">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="100" height="100">
+                                <circle cx="50" cy="50" r="40" fill="#2d2e32" stroke="#64f4ab" stroke-width="2" />
+                                <g transform="translate(32, 32)">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        width="37" height="38.134" viewBox="0 0 37 38.134">
+                                        <defs>
+                                            <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1"
+                                                gradientUnits="objectBoundingBox">
+                                                <stop offset="0" stop-color="#64f4ab" />
+                                                <stop offset="1" stop-color="#327a56" />
+                                            </linearGradient>
+                                        </defs>
+                                        <g id="product_design_icon" data-name="product design - icon"
+                                            transform="translate(-27.328 -15.227)">
+                                            <path id="Path_58" data-name="Path 58"
+                                                d="M176.63,132.33a1.044,1.044,0,0,0-.63.967v11.652a1.059,1.059,0,0,0,.629.968l9.533,4.237a1.055,1.055,0,0,0,.861,0h0l9.533-4.237a1.059,1.059,0,0,0,.629-.968V133.3a1.044,1.044,0,0,0-.63-.967h0l-9.533-4.237a1.061,1.061,0,0,0-.861,0l-9.533,4.237Zm8.9,15.226-7.415-3.3v-9.333l7.415,3.3Zm9.533-3.3-7.415,3.3v-9.333l7.415-3.3Zm-8.474-14.041,6.925,3.078-6.925,3.078-6.925-3.078Z"
+                                                transform="translate(-140.794 -105.358)" fill="url(#linear-gradient)" />
+                                            <path id="Path_59" data-name="Path 59" d="M248,320h2.119v5.3H248Z"
+                                                transform="translate(-203.261 -271.936)" fill="url(#linear-gradient)" />
+                                            <path id="Path_60" data-name="Path 60" d="M248,72h2.119v5.3H248Z"
+                                                transform="translate(-203.261 -56.773)" fill="url(#linear-gradient)" />
+                                            <path id="Path_61" data-name="Path 61" d="M0,0H2.119V4.916H0Z"
+                                                transform="translate(27.328 25.723) rotate(-64.46)"
+                                                fill="url(#linear-gradient)" />
+                                            <path id="Path_76" data-name="Path 76" d="M0,0H2.119V4.916H0Z"
+                                                transform="translate(58.981 42.766) rotate(-64.46)"
+                                                fill="url(#linear-gradient)" />
+                                            <path id="Path_62" data-name="Path 62" d="M0,0H4.916V2.119H0Z"
+                                                transform="translate(58.897 25.915) rotate(-25.54)"
+                                                fill="url(#linear-gradient)" />
+                                            <path id="Path_63" data-name="Path 63" d="M0,0H4.916V2.119H0Z"
+                                                transform="translate(27.328 42.86) rotate(-25.54)"
+                                                fill="url(#linear-gradient)" />
+                                        </g>
+                                    </svg>
+                                </g>
+                            </svg>
+                        </div>
+                        <h3 style="text-align: center; margin-top: 20px; color: #ffffff; font-family:monospace;">Height and Weight</h3>
+                        <p style="text-align: center; color: #E8E8E8;font-family:monospace;">My height is 183cm and I weigh 74kg</p>
+                    </div>
+                </div>
+                <div class="card  card2 anime" style="background-color: #2d2e32; border: none;">
+                    <!-- Card 2 content goes here -->
+                    <div style="width: 300px; background-color: #25262a; padding: 20px; border-radius: 44px;">
+                        <div style="text-align: center; margin-left: 30%;">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="100" height="100">
+                                <circle cx="50" cy="50" r="40" fill="#2d2e32" stroke="#64f4ab" stroke-width="2" />
+                                <g transform="translate(32, 32)">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        width="37" height="38.134" viewBox="0 0 37 38.134">
+                                        <defs>
+                                            <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1"
+                                                gradientUnits="objectBoundingBox">
+                                                <stop offset="0" stop-color="#64f4ab" />
+                                                <stop offset="1" stop-color="#327a56" />
+                                            </linearGradient>
+                                        </defs>
+                                        <g id="product_design_icon" data-name="product design - icon"
+                                            transform="translate(-27.328 -15.227)">
+                                            <path id="Path_58" data-name="Path 58"
+                                                d="M176.63,132.33a1.044,1.044,0,0,0-.63.967v11.652a1.059,1.059,0,0,0,.629.968l9.533,4.237a1.055,1.055,0,0,0,.861,0h0l9.533-4.237a1.059,1.059,0,0,0,.629-.968V133.3a1.044,1.044,0,0,0-.63-.967h0l-9.533-4.237a1.061,1.061,0,0,0-.861,0l-9.533,4.237Zm8.9,15.226-7.415-3.3v-9.333l7.415,3.3Zm9.533-3.3-7.415,3.3v-9.333l7.415-3.3Zm-8.474-14.041,6.925,3.078-6.925,3.078-6.925-3.078Z"
+                                                transform="translate(-140.794 -105.358)" fill="url(#linear-gradient)" />
+                                            <path id="Path_59" data-name="Path 59" d="M248,320h2.119v5.3H248Z"
+                                                transform="translate(-203.261 -271.936)" fill="url(#linear-gradient)" />
+                                            <path id="Path_60" data-name="Path 60" d="M248,72h2.119v5.3H248Z"
+                                                transform="translate(-203.261 -56.773)" fill="url(#linear-gradient)" />
+                                            <path id="Path_61" data-name="Path 61" d="M0,0H2.119V4.916H0Z"
+                                                transform="translate(27.328 25.723) rotate(-64.46)"
+                                                fill="url(#linear-gradient)" />
+                                            <path id="Path_76" data-name="Path 76" d="M0,0H2.119V4.916H0Z"
+                                                transform="translate(58.981 42.766) rotate(-64.46)"
+                                                fill="url(#linear-gradient)" />
+                                            <path id="Path_62" data-name="Path 62" d="M0,0H4.916V2.119H0Z"
+                                                transform="translate(58.897 25.915) rotate(-25.54)"
+                                                fill="url(#linear-gradient)" />
+                                            <path id="Path_63" data-name="Path 63" d="M0,0H4.916V2.119H0Z"
+                                                transform="translate(27.328 42.86) rotate(-25.54)"
+                                                fill="url(#linear-gradient)" />
+                                        </g>
+                                    </svg>
+                                </g>
+                            </svg>
+                        </div>
+                        <h3 style="text-align: center; margin-top: 20px; color: #ffffff; font-family:monospace;">Favourite activities</h3>
+                        <p style="text-align: center; color: #E8E8E8;font-family:monospace;">I love playing football and basketball with my friends</p>
+                    </div>
+
+
+                </div>
+                <div class="card  card3 anime" style="background-color: #2d2e32; border: none;">
+                    <!-- Card 3 content goes here -->
+                    <div style="width: 300px; background-color: #25262a; padding: 20px; border-radius: 44px;">
+                        <div style="text-align: center; margin-left: 30%;">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="100" height="100">
+                                <circle cx="50" cy="50" r="40" fill="#2d2e32" stroke="#64f4ab" stroke-width="2" />
+                                <g transform="translate(32, 32)">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        width="37" height="38.134" viewBox="0 0 37 38.134">
+                                        <defs>
+                                            <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1"
+                                                gradientUnits="objectBoundingBox">
+                                                <stop offset="0" stop-color="#64f4ab" />
+                                                <stop offset="1" stop-color="#327a56" />
+                                            </linearGradient>
+                                        </defs>
+                                        <g id="product_design_icon" data-name="product design - icon"
+                                            transform="translate(-27.328 -15.227)">
+                                            <path id="Path_58" data-name="Path 58"
+                                                d="M176.63,132.33a1.044,1.044,0,0,0-.63.967v11.652a1.059,1.059,0,0,0,.629.968l9.533,4.237a1.055,1.055,0,0,0,.861,0h0l9.533-4.237a1.059,1.059,0,0,0,.629-.968V133.3a1.044,1.044,0,0,0-.63-.967h0l-9.533-4.237a1.061,1.061,0,0,0-.861,0l-9.533,4.237Zm8.9,15.226-7.415-3.3v-9.333l7.415,3.3Zm9.533-3.3-7.415,3.3v-9.333l7.415-3.3Zm-8.474-14.041,6.925,3.078-6.925,3.078-6.925-3.078Z"
+                                                transform="translate(-140.794 -105.358)" fill="url(#linear-gradient)" />
+                                            <path id="Path_59" data-name="Path 59" d="M248,320h2.119v5.3H248Z"
+                                                transform="translate(-203.261 -271.936)" fill="url(#linear-gradient)" />
+                                            <path id="Path_60" data-name="Path 60" d="M248,72h2.119v5.3H248Z"
+                                                transform="translate(-203.261 -56.773)" fill="url(#linear-gradient)" />
+                                            <path id="Path_61" data-name="Path 61" d="M0,0H2.119V4.916H0Z"
+                                                transform="translate(27.328 25.723) rotate(-64.46)"
+                                                fill="url(#linear-gradient)" />
+                                            <path id="Path_76" data-name="Path 76" d="M0,0H2.119V4.916H0Z"
+                                                transform="translate(58.981 42.766) rotate(-64.46)"
+                                                fill="url(#linear-gradient)" />
+                                            <path id="Path_62" data-name="Path 62" d="M0,0H4.916V2.119H0Z"
+                                                transform="translate(58.897 25.915) rotate(-25.54)"
+                                                fill="url(#linear-gradient)" />
+                                            <path id="Path_63" data-name="Path 63" d="M0,0H4.916V2.119H0Z"
+                                                transform="translate(27.328 42.86) rotate(-25.54)"
+                                                fill="url(#linear-gradient)" />
+                                        </g>
+                                    </svg>
+                                </g>
+                            </svg>
+                        </div>
+                        <h3 style="text-align: center; margin-top: 20px; color: #ffffff; font-family:monospace;">Favourite teacher</h3>
+                        <p style="text-align: center; color: #E8E8E8;font-family:monospace;">I really like Mr. Nguyen Trong Khanh, he is very nice with us!</p>
+                    </div>
+
+
+                </div>
+                <div class="card  card4 anime" style="background-color: #2d2e32;border: none;">
+                    <!-- Card 4 content goes here -->
+                    <div style="width: 300px; background-color: #25262a; padding: 20px; border-radius: 44px;">
+                        <div style="text-align: center; margin-left: 30%;">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="100" height="100">
+                                <circle cx="50" cy="50" r="40" fill="#2d2e32" stroke="#64f4ab" stroke-width="2" />
+                                <g transform="translate(32, 32)">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        width="37" height="38.134" viewBox="0 0 37 38.134">
+                                        <defs>
+                                            <linearGradient id="linear-gradient" x1="0.5" zx2="0.5" y2="1"
+                                                gradientUnits="objectBoundingBox">
+                                                <stop offset="0" stop-color="#64f4ab" />
+                                                <stop offset="1" stop-color="#327a56" />
+                                            </linearGradient>
+                                        </defs>
+                                        <g id="product_design_icon" data-name="product design - icon"
+                                            transform="translate(-27.328 -15.227)">
+                                            <path id="Path_58" data-name="Path 58"
+                                                d="M176.63,132.33a1.044,1.044,0,0,0-.63.967v11.652a1.059,1.059,0,0,0,.629.968l9.533,4.237a1.055,1.055,0,0,0,.861,0h0l9.533-4.237a1.059,1.059,0,0,0,.629-.968V133.3a1.044,1.044,0,0,0-.63-.967h0l-9.533-4.237a1.061,1.061,0,0,0-.861,0l-9.533,4.237Zm8.9,15.226-7.415-3.3v-9.333l7.415,3.3Zm9.533-3.3-7.415,3.3v-9.333l7.415-3.3Zm-8.474-14.041,6.925,3.078-6.925,3.078-6.925-3.078Z"
+                                                transform="translate(-140.794 -105.358)" fill="url(#linear-gradient)" />
+                                            <path id="Path_59" data-name="Path 59" d="M248,320h2.119v5.3H248Z"
+                                                transform="translate(-203.261 -271.936)" fill="url(#linear-gradient)" />
+                                            <path id="Path_60" data-name="Path 60" d="M248,72h2.119v5.3H248Z"
+                                                transform="translate(-203.261 -56.773)" fill="url(#linear-gradient)" />
+                                            <path id="Path_61" data-name="Path 61" d="M0,0H2.119V4.916H0Z"
+                                                transform="translate(27.328 25.723) rotate(-64.46)"
+                                                fill="url(#linear-gradient)" />
+                                            <path id="Path_76" data-name="Path 76" d="M0,0H2.119V4.916H0Z"
+                                                transform="translate(58.981 42.766) rotate(-64.46)"
+                                                fill="url(#linear-gradient)" />
+                                            <path id="Path_62" data-name="Path 62" d="M0,0H4.916V2.119H0Z"
+                                                transform="translate(58.897 25.915) rotate(-25.54)"
+                                                fill="url(#linear-gradient)" />
+                                            <path id="Path_63" data-name="Path 63" d="M0,0H4.916V2.119H0Z"
+                                                transform="translate(27.328 42.86) rotate(-25.54)"
+                                                fill="url(#linear-gradient)" />
+                                        </g>
+                                    </svg>
+                                </g>
+                            </svg>
+                        </div>
+                        <h3 style="text-align: center; margin-top: 20px; color: #ffffff; font-family:monospace;">Zodiac sign</h3>
+                        <p style="text-align: center; color: #E8E8E8;font-family:monospace;">I am a Libra</p>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+ 
+
+
+
+
+
+    <!-- footer section  -->
+
+
+    <div class="footer1">
+
+        <div class="logo_sec">
+            <span class="logo navLogo">
+                <!-- <img src="https://demo.phlox.pro/freelancer/wp-content/uploads/sites/272/2021/02/logo-header.svg"> -->
+                <svg data-v-6805eed4="" version="1.0" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" width="65%" height="50%"
+                viewBox="0 0 340.000000 250.000000" preserveAspectRatio="xMidYMid meet"
+                color-interpolation-filters="sRGB" style="margin: auto;">
+                <g data-v-6805eed4="" fill="#fff" class="bordersvg b-d1"
+                    transform="translate(31.056673526763916,46.64749440492278)">
+                    
+                    <g transform="translate(10,52.247501373291016)">
+                       
+                       
+                    </g>
+                </g>
+                <defs v-gra="od"></defs>
+            </svg>
+            </span>
+
+        </div>
+        <div class="infoo">
+            <h3 style="color: white;">A product of Vu Hoang Le</h3>
+        </div>
+        <div class="otheracc">
+
+            
+            
+            <div class="elementor-grid-item">
+                <a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-c0177e3"
+                    href="https://www.instagram.com/lvhoangggg/" target="_blank">
+
+                    <i class="fab fa-instagram"></i> </a>
+            </div>>
+            
+        </div>
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+    <script>
+
+
+
+        const intersectionCallback = (entries) => {
+            for (const entry of entries) { // Loop over all elements that either enter or exit the view.
+                if (entry.isIntersecting) { // This is true when the element is in view.
+                    entry.target.classList.add('animatedcard'); // Add a class.
+                }
+            }
+        }
+
+        /**
+         * Create a observer and use the instersectionCallback as 
+         * the instructions for what to do when an element enters
+         * or leaves the view
+         */
+        const observer = new IntersectionObserver(intersectionCallback);
+
+        /**
+         * Get all .item elements and loop over them.
+         * Observe each individual item.
+         */
+        const items = document.querySelectorAll('.anime');
+        for (const item of items) {
+            observer.observe(item);
+            console.log("observ");
+        }
+
+    </script>
+
+    <script>
+        $(window).on('scroll', function () {
+            var st = $(this).scrollTop(),
+                vh = $(this).height(),
+                $counter = $('.wrapperx'),
+                ct = $counter.offset().top;
+            if ((st + vh) > ct) {
+                // #counter is in the viewport
+
+                let valueDisplays = document.querySelectorAll(".num");
+                let interval = 100;
+
+                valueDisplays.forEach((valueDisplay) => {
+                    let startValue = 0;
+                    let endValue = parseInt(valueDisplay.getAttribute("data-val"));
+                    let duration = Math.floor(interval / endValue);
+                    let counter = setInterval(function () {
+                        startValue += 1;
+                        valueDisplay.textContent = startValue;
+                        if (startValue == endValue) {
+                            clearInterval(counter);
+                        }
+                    }, duration);
+                });
+            }
+        })</script>
+
+</body>
+</body>
+
+</html>
